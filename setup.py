@@ -47,7 +47,7 @@ class Tox(test_command):
 
 setup(
     name='python-escpos-win',
-    version="1.0.0",
+    version="1.0.1",
     url='https://github.com/python-escpos/python-escpos',
     download_url='https://github.com/isaac/python-escpos-win/archive/master.zip',
     description='Python library to manipulate ESC/POS Printers',

@@ -59,7 +59,7 @@ class Usb(Escpos):
             raise USBNotFoundError("Device not found or cable not plugged in.")
 
         # Non-Windows Only (Linux/MacOS)
-        if any(platform.win32_ver()):
+        if not any(platform.win32_ver()):
 
             check_driver = None
 
