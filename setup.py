@@ -58,20 +58,20 @@ version = '{version}'
 
 
 setup(
-    name='python-escpos',
+    name='python-escpos-win',
     use_scm_version={
         'write_to': 'src/escpos/version.py',
         'write_to_template': setuptools_scm_template,
     },
     url='https://github.com/python-escpos/python-escpos',
-    download_url='https://github.com/python-escpos/python-escpos/archive/master.zip',
+    download_url='https://github.com/isaac/python-escpos-win/archive/master.zip',
     description='Python library to manipulate ESC/POS Printers',
     license='GNU GPL v3',
     long_description=read('README.rst'),
     author='Manuel F Martinez and others',
     author_email='manpaz@bashlinux.com',
     maintainer='Patrick Kanzler',
-    maintainer_email='patrick.kanzler@fablab.fau.de',
+    maintainer_email='info@isaackogan.com',
     keywords=[
         'ESC/POS',
         'thermoprinter',
